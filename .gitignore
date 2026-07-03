@@ -2,3 +2,5 @@ github_new
 github_new.pub
 *.key
 *.pem
+*.key
+>>>>>>> 95fc17778702928fb05bc7cbcd10619aaa181031

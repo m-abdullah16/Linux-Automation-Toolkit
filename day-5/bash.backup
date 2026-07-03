@@ -1,0 +1,20 @@
+#!bin/bash
+########################################################
+  # SCRIPT:  backup.sh
+  # PURPOSE: Back up a folder with a timestamped filename
+  # AUTHOR:  Abdullah — Cloud Engineer
+  # USAGE:   bash backup.sh
+###########################################################
+$ mkdir -p ~/day5-practice/myapp
+$ mkdir -p ~/day5-practice/backups
+$ cd ~/day5-practice
+
+# Create some fake app files to back up
+$ echo "App version 1.0" > myapp/app.py
+$ echo "DB_HOST=localhost" > myapp/config.env
+$ echo "Hello World" > myapp/index.html
+$ ls -la myapp/
+-rw-rw-r-- 1 ubuntu ubuntu  16 myapp/app.py
+-rw-rw-r-- 1 ubuntu ubuntu  18 myapp/config.env
+-rw-rw-r-- 1 ubuntu ubuntu  12 myapp/index.html
+
